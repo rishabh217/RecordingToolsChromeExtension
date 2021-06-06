@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.box-container {
+    display: flex;
+    background-color: #263238;
+    height: 200px;
+    width: 320px;
+    position: relative;
+}
+
+.head-container {
+    width: 100%;
+    position: relative;
+}
+
+.head-content {
+    position: relative;
+    display: flex;
+    top: -3%;
+    left: 8%;
+}
+
+#head {
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#ver {
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    right: 15%;
+}
+
+.head-bar {
+    align-self: flex-start;
+    position: absolute;
+    display: flex;
+    border-top: 40px solid #37474F;
+    border-right: 35px solid transparent;
+    height: 0;
+    width: 75%;
+}
+
+.content-container {
+    width: 100%;
+    align-self: center;
+    display: flex;
+    position: absolute;
+    top: 31%;
+    left: 13%;
+}
+
+.fa-record-vinyl {
+    color: white;
+    height: 55px;
+    width: 55px;
+    border: 3px solid white;
+    font-size: 1.5rem;
+    background-color: #37474F;
+    border-radius: 50%;
+    padding: 4%;
+}
+
+.fa-record-vinyl:hover,.fa-video:hover, .fa-microphone-alt:hover {
+    color: #263238;
+    background-color: white;
+    border: 3px solid #263238;
+}
+
+.fa-video {
+    color: white;
+    height: 55px;
+    width: 55px;
+    border: 3px solid white;
+    font-size: 1.5rem;
+    background-color: #37474F;
+    margin-left: 9.5%;
+    border-radius: 50%;
+    padding: 4%;
+}
+
+.fa-microphone-alt {
+    color: white;
+    height: 55px;
+    width: 55px;
+    border: 3px solid white;
+    font-size: 1.5rem;
+    background-color: #37474F;
+    margin-left: 9.5%;
+    border-radius: 50%;
+    padding: 4% 5%;
+}
+
+.bottom-container1 {
+    display: flex;
+    position: absolute;
+    background-color: #37474F;
+    width: 100%;
+    height: 30%;
+    align-self: flex-end;
+}
+
+.fa-clipboard {
+    color: white;
+    font-size: 1.65rem;
+    margin-left: 22%;
+    margin-top: 2.25%;
+}
+
+#capture-text {
+    color: white;
+    font-size: 1rem;
+    margin-left: 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fa-clipboard:hover {
+    color: #263238;
+}
+
+.bottom-container2 {
+    align-self: flex-end;
+    position: absolute;
+    border-bottom: 20px solid #263238;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    height: 0;
+    width: 100%;
+}

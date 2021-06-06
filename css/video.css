@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.fa-download {
+    color: #002984;
+    font-size: 3rem;
+    margin: 3%;
+}
+
+.fa-stop {
+    color: #ba000d;
+    font-size: 3rem;
+    margin: 3%;
+}
+
+.fa-play {
+    color: #00a152;
+    font-size: 3rem;
+    margin: 3%;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+@keyframes buttonAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

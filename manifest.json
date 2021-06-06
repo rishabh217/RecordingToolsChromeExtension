@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Recorder Tools",
+    "description": "Chrome Extension which provides the facility to record the computer screen, record video and audio.",
+    "version": "1.0",
+    "icons": { "128": "ic_recording_tools.png" },
+    "browser_action": {
+        "default_icon": "ic_recording_tools.png",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "persistant": true,
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "contextMenus",
+        "app",
+        "tabs",
+        "activeTab",
+        "desktopCapture",
+        "https://www.google.com/_/chrome/newtab*",
+        "background",
+        "http://*/*",
+        "https://*/*"
+    ]
+}
